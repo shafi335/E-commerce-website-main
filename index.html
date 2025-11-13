@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Migrated to Next.js</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+<script type="importmap">
+{
+  "imports": {
+    "@clerk/nextjs/": "https://aistudiocdn.com/@clerk/nextjs@^6.32.0/",
+    "@clerk/nextjs": "https://aistudiocdn.com/@clerk/nextjs@^6.32.0",
+    "next/": "https://aistudiocdn.com/next@^15.5.3/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.544.0",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.19.0",
+    "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.57.4"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center h-screen font-sans">
+  <div class="text-center p-8 border border-gray-700 rounded-lg bg-gray-800 shadow-2xl max-w-2xl">
+    <h1 class="text-4xl font-bold text-cyan-400 mb-4">Project Migration Notice</h1>
+    <p class="text-lg mb-2">This project has been upgraded to a full-stack Next.js application!</p>
+    <p class="text-gray-400 mb-6">The file <code class="bg-gray-700 p-1 rounded">index.html</code> is no longer the entry point. Opening it directly in the browser will not work and caused the error you saw.</p>
+    <h2 class="text-2xl font-semibold text-cyan-300 mb-3">How to Run This Project:</h2>
+    <ol class="text-left space-y-3">
+      <li>
+        <strong>1. Install Dependencies:</strong>
+        <pre class="bg-gray-900 p-3 rounded-md mt-1 text-gray-300"><code>npm install</code></pre>
+      </li>
+      <li>
+        <strong>2. Set Up Environment Variables:</strong>
+        <p class="mt-1 text-gray-400">Rename the file <code class="bg-gray-700 p-1 rounded">.env.local.example</code> to <code class="bg-gray-700 p-1 rounded">.env.local</code> and fill in your API keys.</p>
+      </li>
+      <li>
+        <strong>3. Run the Development Server:</strong>
+        <pre class="bg-gray-900 p-3 rounded-md mt-1 text-gray-300"><code>npm run dev</code></pre>
+      </li>
+      <li>
+        <strong>4. Open in Browser:</strong>
+        <p class="mt-1 text-gray-400">Visit <a href="http://localhost:3000" class="text-cyan-400 hover:underline">http://localhost:3000</a></p>
+      </li>
+    </ol>
+    <p class="mt-8 text-sm text-gray-500">The old React SPA files (<code class="bg-gray-700 p-1 rounded">index.tsx</code>, <code class="bg-gray-700 p-1 rounded">App.tsx</code>, etc.) are now obsolete and can be safely deleted.</p>
+  </div>
+</body>
+</html>

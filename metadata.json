@@ -1,0 +1,6 @@
+{
+  "obsolete": "This file is no longer used. Project metadata is now handled by the 'metadata' export in Next.js layouts (e.g., app/layout.jsx). You can safely delete this file.",
+  "requestFramePermissions": [],
+  "name": "save",
+  "description": ""
+}
